@@ -1,4 +1,4 @@
-
+import {Outlet} from 'react-router-dom'
 
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
   return (
     <>
     
-    Hello
+    <Outlet />
+    
     </>
   )
 }
