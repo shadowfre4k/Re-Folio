@@ -1,6 +1,6 @@
 import {Outlet} from 'react-router-dom'
-import Navigation from './components/Navigation'
-import 'react-bootstrap'
+import Nav from './components/Nav'
+
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
 
-    <Navigation />
+    <Nav />
     <Outlet />
     
     </>
