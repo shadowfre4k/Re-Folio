@@ -1,16 +1,15 @@
-.nav {
-  width: 100%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  font-size: 1.5em;
+.first-color {
+  background: #defcf9;
 }
 
-.navLinks {
-  display: flex;
-  justify-content: start;
+.second-color {
+  background: #cadefc;
 }
 
-.links {
-  text-decoration: none;
+.third-color {
+  background: #c3bef0;
+}
+
+.fourth-color {
+  background: #cca8e9;
 }
