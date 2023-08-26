@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Pages being imported
 
 import Error from "./pages/Error";
-import Homepage from "./pages/Homepage";
+
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -19,10 +19,6 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Homepage />,
-      },
-      {
-        path: "about",
         element: <About />,
       },
       {

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import NavBar from "./UI/NavBar";
 
 const styles = {
   navbar: {
@@ -50,18 +49,15 @@ export default function Nav() {
         <div style={styles.itemContainer}>
           {[
             <Link key={1} style={styles.items} to="/">
-              Home
-            </Link>,
-            <Link key={2} style={styles.items} to="/about">
               About Me
             </Link>,
-            <Link key={3} style={styles.items} to="/portfolio">
+            <Link key={2} style={styles.items} to="/portfolio">
               Portfolio
             </Link>,
-            <Link key={4} style={styles.items} to="/resume">
+            <Link key={3} style={styles.items} to="/resume">
               Resume
             </Link>,
-            <Link key={5} style={styles.items} to="/contact">
+            <Link key={4} style={styles.items} to="/contact">
               Contact Me
             </Link>,
           ]}
