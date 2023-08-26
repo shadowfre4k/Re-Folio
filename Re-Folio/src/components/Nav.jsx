@@ -1,54 +1,72 @@
 import { Link } from "react-router-dom";
 // import NavBar from "./UI/NavBar";
-import "../styles/navLinks.css";
 
 const styles = {
   navbar: {
     display: "flex",
     flexDirection: "row",
     flexWrap: "nowrap",
-    justifyContent: "end",
+    justifyContent: "space-between",
     alignItems: "center",
     backgroundColor: "#c3bef0",
-    height: "4vh",
+    height: "2%",
     width: "100%",
     textAlign: "center",
     borderRadius: "0 0 5px 5px",
-    boxShadow: "0 5px 10px #cadefc",
-  },
-
-  items: {
-    border: " 1px solid white",
-    borderRadius: "50px ",
+    boxShadow: "0 10px 20px #cadefc",
     padding: ".5%",
+  },
+  itemContainer: {
+    display: "flex",
+    flexWrap: "nowrap",
+    width: "50%",
+  },
+  items: {
+    backgroundColor: "#c3bef0",
+    border: " 2px solid white",
+    borderRadius: "50px ",
+    padding: " .5% 2%",
     fontSize: "1em",
-    fontWeight: "500",
+    fontWeight: "1000",
     textDecoration: "none",
     color: "white",
-    margin: " 1%",
-    ":hover": {
-      color: " black",
-    },
+    margin: " 0% 5%",
+  },
+  name: {
+    backgroundColor: "#c3bef0",
+    fontSize: "2em",
+    fontWeight: "1000",
+    textDecoration: "none",
+    color: "white",
+    margin: " 0% 1%",
   },
 };
 
 export default function Nav() {
   return (
-    <div style={styles.navbar}>
-      {[
-        <Link key={1} style={styles.items} className="links" to="/home">
-          Home
-        </Link>,
-        <Link key={2} style={styles.items} className="links" to="/about">
-          About Me
-        </Link>,
-        <Link key={3} style={styles.items} className="links" to="/portfolio">
-          Portfolio
-        </Link>,
-        <Link key={4} style={styles.items} className="links" to="/contact">
-          Contact Me
-        </Link>,
-      ]}
+    <div>
+      <div style={styles.navbar}>
+        <div style={styles.name}>Vincent Jacobs</div>
+        <div style={styles.itemContainer}>
+          {[
+            <Link key={1} style={styles.items} to="/">
+              Home
+            </Link>,
+            <Link key={2} style={styles.items} to="/about">
+              About Me
+            </Link>,
+            <Link key={3} style={styles.items} to="/portfolio">
+              Portfolio
+            </Link>,
+            <Link key={4} style={styles.items} to="/resume">
+              Resume
+            </Link>,
+            <Link key={5} style={styles.items} to="/contact">
+              Contact Me
+            </Link>,
+          ]}
+        </div>
+      </div>
     </div>
   );
 }
