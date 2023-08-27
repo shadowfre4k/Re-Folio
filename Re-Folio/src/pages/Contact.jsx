@@ -25,11 +25,13 @@ const styles = {
   },
 
   form: {
+    boxShadow: "0px 5px 10px #cadefc",
     margin: "8%",
     borderRadius: " 50px",
     textAlign: "center",
   },
   bigform: {
+    boxShadow: "0px 5px 10px #cadefc",
     borderRadius: " 50px",
     textAlign: "center",
     width: "500px",
