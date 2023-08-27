@@ -1,8 +1,22 @@
-# React + Vite
+# <Your-Project-Title>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my portfolio using React.js, I was motivated to do this project because i wanted to demonstrate my ability to create a one page web application using react. I wanted to display my ability to properly use a router, style pages and create a friendly page for an expression of my skills as a new Full stack developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents (Optional)
+
+## Usage
+
+You can check out the Repo
+
+    https://github.com/shadowfre4k/Re-Folio
+
+You can also check out the Deployed app on Netlify
+
+    https://app.netlify.com/sites/deft-biscochitos-3697a2/deploys
+
+## Features
+
+This application doesn't use any special features outside of minor Bootstrap and REACT,
+But it does shows uses of the Components and the Router to switch "pages"
