@@ -5,7 +5,7 @@ const styles = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
-    height: "90vh",
+    height: "88vh",
   },
   card: {
     display: "flex",

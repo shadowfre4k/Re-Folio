@@ -33,11 +33,12 @@ const styles = {
   },
   name: {
     backgroundColor: "#c3bef0",
-    fontSize: "2em",
+    fontSize: "3em",
     fontWeight: "1000",
     textDecoration: "none",
     color: "white",
     margin: " 0% 1%",
+    textShadow: "1px 1px 10px #cadefc",
   },
 };
 

@@ -16,6 +16,7 @@ const styles = {
     padding: "5%",
     margin: ".5% 0",
     textShadow: "1px 1px 2px #cca8e9",
+    fontSize: "2.5em",
   },
   img: {
     border: "5px solid #cadefc",
@@ -32,12 +33,12 @@ export default function Card() {
         <img style={styles.img} src="src/assets/profile.jpg" />
       </div>
       <div style={styles.body}>
-        <h1>{`Hello My Name is Vincent Jacobs!
+        <div>
+          {`Hello My Name is Vincent Jacobs!
         I aspire to be known for my craft in webdevelopment. I pride myself on the work I've done up til now and look forward to the types of things i will be creating in the future!
         
-  
-        
-        My plans is to jump into the field as a fullstack developer. Having worked with many technologies and applications, I've only learned that anything is possible to learn and whatever you need, I can bring!`}</h1>
+        My plans is to jump into the field as a fullstack developer. Having worked with many technologies and applications, I've only learned that anything is possible to learn and whatever you need, I can bring!`}
+        </div>
       </div>
     </>
   );
