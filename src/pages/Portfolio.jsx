@@ -33,34 +33,34 @@ export default function Portfolio() {
       <div style={styles.largeImg}>
         <a style={styles.title} href="https://github.com/shadowfre4k/viewFolio">
           <div>Viewfolio</div>
-          <img src="src/assets/viewfolio.png" width={1080} height={720} />
+          <img src="./src/assets/viewfolio.png" width={1080} height={720} />
         </a>
       </div>
       <div style={styles.smallImgContainer}>
         <PortfolioCard
           title={"EmployeeSQL"}
           link={"https://github.com/shadowfre4k/EmployeeTrackerSQL"}
-          img={"src/assets/employeeSQL.png"}
+          img={"./src/assets/employeeSQL.png"}
         />
         <PortfolioCard
           title={"Movie fight Club"}
           link={"https://github.com/shadowfre4k/Movie-Fight-Club"}
-          img={"src/assets/movieFightClub.gif"}
+          img={"./src/assets/movieFightClub.gif"}
         />
         <PortfolioCard
           title={"PWA TExt Editor"}
           link={"https://github.com/shadowfre4k/PWATextEditor"}
-          img={"src/assets/pwa.png"}
+          img={"./src/assets/pwa.png"}
         />
         <PortfolioCard
           title={"Noter Taker DB"}
           link={"https://github.com/shadowfre4k/noteTakerDB"}
-          img={"src/assets/noteTaker.png"}
+          img={"./src/assets/noteTaker.png"}
         />
         <PortfolioCard
           title={"eCommerceSQLize"}
           link={"https://github.com/shadowfre4k/eCommerceSQLize"}
-          img={"src/assets/eCommerceSQLize.png"}
+          img={"./src/assets/eCommerceSQLize.png"}
         />
       </div>
     </div>
