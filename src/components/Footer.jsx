@@ -29,10 +29,10 @@ export default function Footer() {
           <img src="./src/assets/Github.png" width={40} />
         </a>
         <a href="https://www.linkedin.com/in/vincent-jacobs-702471224/">
-          <img src="./src/assets/Linkedin.png" width={40} />
+          <img src="./assets/Linkedin.png" width={40} />
         </a>
         <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobsearch--indeedmobile">
-          <img src="./src/assets/indeed.png" width={40} />
+          <img src="assets/indeed.png" width={40} />
         </a>
       </div>
     </div>
