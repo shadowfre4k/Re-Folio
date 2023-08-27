@@ -35,9 +35,9 @@ export default function Card() {
       <div style={styles.body}>
         <div>
           {`Hello My Name is Vincent Jacobs!
-        I aspire to be known for my craft in webdevelopment. I pride myself on the work I've done up til now and look forward to the types of things i will be creating in the future!
+        I aspire to be known for my craft in webdevelopment. I pride myself on the work I've done up until now and look forward to the types of things i will be creating in the future!
         
-        My plans is to jump into the field as a fullstack developer. Having worked with many technologies and applications, I've only learned that anything is possible to learn and whatever you need, I can bring!`}
+        My plans is to jump into the field as a fullstack developer to take on new challenges and become more knowledgable in all avenues. Having worked with many technologies and applications, I've only learned that anything is possible to learn and whatever you need, I can bring!`}
         </div>
       </div>
     </>
