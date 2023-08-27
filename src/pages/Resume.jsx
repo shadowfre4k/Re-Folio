@@ -18,8 +18,10 @@ const styles = {
     justifyContent: "center",
     margin: "5%",
     padding: "1%",
+    fontSize: "1.5em",
   },
   list: {
+    fontSize: "2em",
     boxShadow: "0px 10px 20px #cadefc",
     textShadow: "1px 1px 1px #cca8e9",
     borderRadius: " 50px",
