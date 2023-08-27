@@ -26,13 +26,13 @@ export default function Footer() {
     <div style={styles.footerContainer}>
       <div style={styles.iconContainer}>
         <a href="https://github.com/shadowfre4k">
-          <img src="src/assets/Github.png" width={40} />
+          <img src="./src/assets/Github.png" width={40} />
         </a>
         <a href="https://www.linkedin.com/in/vincent-jacobs-702471224/">
-          <img src="src/assets/Linkedin.png" width={40} />
+          <img src="./src/assets/Linkedin.png" width={40} />
         </a>
-        <a href="https://github.com/shadowfre4k">
-          <img src="src/assets/Linkedin.png" width={40} />
+        <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobsearch--indeedmobile">
+          <img src="./src/assets/indeed.png" width={40} />
         </a>
       </div>
     </div>
