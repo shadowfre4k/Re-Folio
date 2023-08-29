@@ -1,3 +1,5 @@
+import profile from "../../../assets/profile.jpg";
+
 const styles = {
   header: {
     backgroundColor: "#defcf9",
@@ -30,7 +32,7 @@ export default function Card() {
   return (
     <>
       <div style={styles.header}>
-        <img style={styles.img} src="./src/assets/profile.jpg" />
+        <img style={styles.img} src={profile} />
       </div>
       <div style={styles.body}>
         <div>

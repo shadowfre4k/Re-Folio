@@ -1,4 +1,10 @@
 import PortfolioCard from "../components/UI/PortfolioCard";
+import employee from "../assets/employeeSQL.png";
+import fight from "../assets/movieFightClub.gif";
+import text from "../assets/pwa.png";
+import note from "../assets/noteTaker.png";
+import eCommerce from "../assets/eCommerceSQLize.png";
+import viewfolio from "../assets/viewfolio.png";
 const styles = {
   container: {
     display: "flex",
@@ -33,38 +39,36 @@ export default function Portfolio() {
       <div style={styles.largeImg}>
         <a style={styles.title} href="https://github.com/shadowfre4k/viewFolio">
           <div>Viewfolio</div>
-          <img src="./src/assets/viewfolio.png" width={1080} height={720} />
+          <img src={viewfolio} width={1080} height={720} />
         </a>
       </div>
       <div style={styles.smallImgContainer}>
         <PortfolioCard
           title={"EmployeeSQL"}
           link={"https://github.com/shadowfre4k/EmployeeTrackerSQL"}
-          img={"./src/assets/employeeSQL.png"}
+          img={employee}
         />
         <PortfolioCard
           title={"Movie fight Club"}
           link={"https://github.com/shadowfre4k/Movie-Fight-Club"}
-          img={"./src/assets/movieFightClub.gif"}
+          img={fight}
         />
         <PortfolioCard
-          title={"PWA TExt Editor"}
+          title={"PWA Text Editor"}
           link={"https://github.com/shadowfre4k/PWATextEditor"}
-          img={"./src/assets/pwa.png"}
+          img={text}
         />
         <PortfolioCard
           title={"Noter Taker DB"}
           link={"https://github.com/shadowfre4k/noteTakerDB"}
-          img={"./src/assets/noteTaker.png"}
+          img={note}
         />
         <PortfolioCard
           title={"eCommerceSQLize"}
           link={"https://github.com/shadowfre4k/eCommerceSQLize"}
-          img={"./src/assets/eCommerceSQLize.png"}
+          img={eCommerce}
         />
       </div>
     </div>
   );
 }
-
-//links
