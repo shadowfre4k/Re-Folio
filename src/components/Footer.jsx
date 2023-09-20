@@ -10,12 +10,9 @@ const styles = {
     alignItems: "center",
     width: "100%",
     height: "5%",
-
     position: "fixed",
     bottom: "0",
-
     backgroundColor: "#c3bef0",
-
     boxShadow: "0 -10px 20px #cadefc",
   },
   iconContainer: {

@@ -1,7 +1,7 @@
 import PortfolioCard from "../components/UI/PortfolioCard";
 import employee from "../assets/employeeSQL.png";
 import fight from "../assets/movieFightClub.gif";
-import text from "../assets/pwa.png";
+import pokemon from "../assets/pokemon.png";
 import note from "../assets/noteTaker.png";
 import eCommerce from "../assets/eCommerceSQLize.png";
 import viewfolio from "../assets/viewfolio.png";
@@ -54,9 +54,9 @@ export default function Portfolio() {
           img={fight}
         />
         <PortfolioCard
-          title={"PWA Text Editor"}
-          link={"https://github.com/shadowfre4k/PWATextEditor"}
-          img={text}
+          title={"Pokemon Card Shop"}
+          link={"https://scorsteezy-a5a23fdb1369.herokuapp.com/"}
+          img={pokemon}
         />
         <PortfolioCard
           title={"Noter Taker DB"}
